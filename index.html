@@ -19,55 +19,122 @@
         <div class="header-top py-10">
             <div class="container">
                 <div class="header-top-main">
-                    <div class="header-top-content d-flex">
+                    <div class="header-top-content d-flex justify-content-between">
                         <div class="header-top-left">
                             <span>WELCOME TO WOLMART STORE MESSAGE OR REMOVE IT!</span>
                         </div><!--header-top-left-->
                         <div class="header-top-right d-flex">
-                            <div class="country currency d-flex border-right">
-                                <div class="usd position-relative">
-                                    <span>USD<i class="fa-solid fa-chevron-down"></i></span>
-                                    <div class="usds shadow position-absolute text-center">
-                                        <div class="tooltip position-relative">
-                                            <span>USD </span>
-                                            <span>EUR</span>
+                                <div class="country currency d-flex border-right">
+                                    <div class="usd position-relative mx-2">
+                                        <span>USD<i class="fa-solid fa-chevron-down"></i></span>
+                                        <div class="usds shadow position-absolute text-center">
+                                            <div class="tooltip position-relative">
+                                                <span>USD </span>
+                                                <span>EUR</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="usd position-relative mx-2">
+                                        <span><img class="img-fluid me-5" src="img/eng.png" alt="">ENG<i class="fa-solid fa-chevron-down"></i></span>
+                                        <div class="usds shadow position-absolute text-center">
+                                            <div class="tooltip position-relative">
+                                                <span class="p-5"><img class="img-fluid me-5" src="img/eng.png" alt="">ENG</span>
+                                                <span class="p-5"><img class="img-fluid me-5" src="img/eng.png" alt="">ENG</span>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="usd position-relative">
-                                    <span><img class="img-fluid me-5" src="img/eng.png" alt="">ENG<i class="fa-solid fa-chevron-down"></i></span></span>
-                                    <div class="usds shadow position-absolute text-center">
-                                        <div class="tooltip position-relative">
-                                            <span class="p-5"><img class="img-fluid me-5" src="img/eng.png" alt="">ENG</span></span>
-                                            <span class="p-5"><img class="img-fluid me-5" src="img/eng.png" alt="">ENG</span></span>
-                                        </div>
-                                    </div>
+                                <div class="top-menu ms-5">
+                                    <ul class="list-unstyled d-flex">
+                                        <li class="mx-2"><a href="#">Blog</a></li>
+                                        <li class="mx-2"><a href="#">Contact us</a></li>
+                                        <li class="mx-2"><a href="#">My Account</a></li>
+                                    </ul>
+                                </div><!--top-menu-->
+                                <div class="login-ragister">
+                                    <ul class="list-unstyled d-flex">
+                                        <li>
+                                            <a href="#"><i class="fa-solid fa-user-tie"></i>sign in</a>
+                                        </li>
+                                        <li><small class="mx-1">/</small></li>
+                                        <li><a href="#">
+                                            Register
+                                        </a></li>
+                                    </ul>
                                 </div>
-                            </div>
-                            <div class="top-menu">
-                                <ul class="list-unstyled d-flex">
-                                    <li class="mx-2"><a href="#">Blog</a></li>
-                                    <li class="mx-2"><a href="#">Contact us</a></li>
-                                    <li class="mx-2"><a href="#">My Account</a></li>
-                                </ul>
-                            </div><!--top-menu-->
-                            <div class="login-ragister">
-                                <ul class="list-unstyled d-flex">
-                                    <li><a href="#">
-                                        <i class="fa-solid fa-user-tie"></i>sign in
-                                    </a></li><small class="mx-1">/</small>
-                                    <li><a href="#">
-                                        Register
-                                    </a></li>
-                                </ul>
-                            </div>
-                        </div><!--header-top-right-->
-
+                            </div><!--header-top-right-->
                     </div><!--header-top-content-->
                 </div><!--header-top-main-->
             </div><!--container-->
+        </div><!--header-top-->
+        <div class="header-logo-section py-4">
+            <div class="container">
+                <div class="header-main py-10 d-flex">
+                    <div class="header-main-left d-flex">
+                        <div class="logo">
+                            <img height="50" src="img/logo.png" alt="">
+                        </div><!--logo-->
+                        <div class="big-search d-flex m-auto border p-5">
+                            <div class="category border-right px-4">
+                                <select class="py-10 border-0" name="" id="" style="color: #8e8681;">
+                                    <option value="" selected>All categories</option>
+                                    <option value="">Fashion</option>
+                                    <option value="">Furniture</option>
+                                    <option value="">Shoes</option>
+                                    <option value="">Sports</option>
+                                    <option value="">Games</option>
+                                    <option value="">Computers</option>
+                                    <option value="">Electronics</option>
+                                    <option value="">Kitchen</option>
+                                    <option value="">Clothing</option>
+                                </select>
+                            </div><!--category-->
+                            <div class="search-field">
+                                <input class="form-control py-5 border-0 px-10" type="text" placeholder="Search in...">
+                            </div>
+                        </div><!--big-serach-->
+                    </div>
+                    <!-- ---------------------------------- header-main-right-------------------------------- -->
+                    <div class="header-main-right d-flex">
+                        <div class="live-chat phone-call d-flex flex-column border-right px-10">
+                            <span class="lh-1">live chat or :</span>
+                            <a href="tel:">
+                                <i class="fa-solid fa-phone"></i>
+                                <strong>12(345)67489</strong>
+                            </a>
+                        </div><!--live chat or phone-->
+            
+                        <div class="cart mx-2">
+                            <div class="cart-icons">
+                                <ul class="list-unstyled d-flex">
+                                    <li class="mx-2">
+                                        <a href="#" class="text-center d-block">
+                                            <i class="fa-solid fa-heart"></i>
+                                            <p><small>Wishlist</small></p>
+                                        </a>
+                                    </li>
+                                    <li class="mx-2">
+                                        <a href="#" class="text-center d-block">
+                                            <i class="fa-solid fa-scale-balanced"></i>
+                                            <p><small>compare</small></p>
+                                        </a>
+                                    </li>
+                                    <li class="mx-2 cart-list position-relative">
+                                        <a href="#">
+                                            <i class="fa-solid fa-bag-shopping"></i>
+                                            <p><small>cart</small></p>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div><!--cart-->
+                    </div>
+                </div><!--header-main-->
+            </div>
         </div>
     </header>
+    <!-- -------------------------------------------- nav bar----------------------------------------- -->
+
 
 
  
